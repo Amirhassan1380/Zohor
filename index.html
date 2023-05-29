@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>یاران قائم</title>
+
+    <!-- Mirrored from www.w3schools.com/w3css/tryw3css_templates_parallax.htm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Aug 2020 22:50:39 GMT -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="sub_page/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar  w3-card" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+        <i class="fa fa-bars"></i>
+        </a>
+        
+        <a
+          href="sub_page/Biography.html"
+          class="w3-bar-item w3-button w3-hide-small w3-right"
+          ><i class="fa fa-user"></i> زندگی نامه</a
+        >
+
+        <div class="w3-dropdown-hover w3-bar-block w3-right">
+          <a
+            href="sub_page/Articles.html"
+            class="w3-bar-item w3-button w3-hide-small"
+            ><i class="fa fa-print"></i> مقالات</a
+          >
+          <div class="w3-dropdown-content w3-bar-block w3-card">
+            <a href="sub_page/Articles.html#mahawiat" class="w3-button w3-bar-item w3-right">مهدویت</a>
+            <a href="sub_page/Articles.html#ahle_sonat" class="w3-button w3-bar-item">روایت اهل سنت</a>
+            <a href="sub_page/Articles.html#zohoor" class="w3-button w3-bar-item">علایم اولیه ظهور</a>
+            <a href="sub_page/Articles.html#dajal" class="w3-button w3-bar-item">دجال کیست؟</a>
+          </div>
+        </div>
+
+        <a
+          href="sub_page/About & Contact.html"
+          class="w3-bar-item w3-button w3-hide-small w3-right"
+        >
+          <i class="fa fa-th"></i> در باره ما</a
+        >
+        <a
+          href="sub_page/About & Contact.html"
+          class="w3-bar-item w3-button w3-hide-small w3-right"
+        >
+          <i class="fa fa-envelope"></i> ارتباط با ما</a
+        >
+        <button
+         
+          class="w3-bar-item  w3-left w3-button w3-hover-green w3-hover-text-light-gray"
+        onclick="document.getElementById('faraj').style.display='block'"
+          >
+          دعای فرج
+      </button>
+        <div id="faraj" class="w3-modal ">
+          <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-card-4">
+            <div class="w3-container w3-text-black">
+              <span onclick="document.getElementById('faraj').style.display='none'"
+              class="w3-button w3-display-topright">&times;</span>
+              <h3 class="w3-text-green w3-center"><b> دعای فرج</b></h3>
+                <p class="w3-text-green w3-center w3-large">بسم الله الرحمن الرحیم</p>
+              <p>إِلٰهِی عَظُمَ الْبَلاءُ، وَبَرِحَ الْخَفاءُ، وَانْکَشَفَ الْغِطاءُ، وَانْقَطَعَ الرَّجاءُ، وَضاقَتِ الْأَرْضُ، وَمُنِعَتِ السَّماءُ، وَأَنْتَ الْمُسْتَعانُ، وَ إِلَیْکَ الْمُشْتَکیٰ، وَعَلَیْکَ الْمُعَوَّلُ فِی الشِّدَّةِ وَالرَّخاءِ.
+              (خدایا گرفتاری بزرگ شد و پوشیده بر ملأ گشت و پرده کنار رفت و امید بریده گشت و زمین تنگ شد و خیرات آسمان دریغ شد و پشتیبان تویی و شکایت تنها به جانب تو است، در سختی و آسانی تنها بر تو اعتماد است،)
+              اللّٰهُمَّ صَلِّ عَلیٰ مُحَمَّدٍ وَآلِ مُحَمَّدٍ أُولِی الْأَمْرِ الَّذِینَ فَرَضْتتَ عَلَیْنا طاعَتَهُمْ، وَعَرَّفْتَنا بِذَلِکَ مَنْزِلَتتَهُمْ، فَفَرِّجْ عَنّا بِحَقِّهِمْ فَرَجاً عاجِلاً قَرِیباً کَلَمْحِ الْبَصَرِ أَوْ هُوَ أَقْرَبُ.
+              (خدایا! بر محمّد و خاندان محمّد درود فرست آن صاحبان فرمانی که اطاعتشان را بر ما فرض نمودی و به این سبب مقامشان را به ما شناساندی، پس به حق ایشان به ما گشایش ده، گشایشی زود و نزدیک همچون چشم بر هم نهادن یا زودتر،)
+              یَا مُحَمَّدُ یَا عَلِیُّ، یَا عَلِیُّ یَا مُحَمَّدُ اکْفِیانِی فَإِنَّکُما کافِیانِ، وَانْصُرانِی فَإِنَّکُما ناصِرانِ.
+              (ای محمّد و ای علی، ای علی و ای محمّد، مرا کفایت کنید که تنها شما کفایت کنندگان منید و یاری ام دهید که تنها شما یاری کنندگان من هستید،)
+              یَا مَوْلانا یَا صاحِبَ الزَّمانِ، الْغَوْثَ الْغَوْثَ الْغَوْثَ، أَدْرِکْنِی أَدْرِکْنِی أَدْرِکْنِی، السَّاعَةَ السَّاعَةَ السّاعَةَ، الْعَجَلَ الْعَجَلَ الْعَجَلَ، یَا أَرْحَمَ الرَّاحِمِینَ بِحَقِّ مُحَمَّدٍ وَآلِهِ الطَّاهِرِینَ.
+              (ای مولای ما ای صاحب زمان، فریادرس، فریادرس، فریادرس، مرا دریاب، مرا دریاب، مرا دریاب، اکنون، اکنون، اکنون، با شتاب، با شتاب، با شتاب، ای مهربان ترین مهربانان به حق محمّد و خاندان پاک او.)
+              
+              </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-light-gray w3-hide w3-hide-large w3-hide-medium w3-card"
+      >
+        <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()"
+           > صفحه اصلی</a
+        >
+        <a
+          href="sub_page/Biography.html"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >زندگی نامه</a
+        >
+
+        <div class="w3-dropdown-hover w3-bar-block w3-right">
+          <a href="sub_page/Articles.html" class="w3-bar-item w3-button"
+            ><i class=""></i> مقالات</a
+          >
+          <div class="w3-dropdown-content w3-bar-block w3-center w3-card">
+            <a href="sub_page/Articles.html#mahawiat" class="w3-button w3-bar-item w3-right">مهدویت</a>
+            <a href="sub_page/Articles.html#ahle_sonat" class="w3-button w3-bar-item">روایت اهل سنت</a>
+            <a href="sub_page/Articles.html#zohoor" class="w3-button w3-bar-item">علایم اولیه ظهور</a>
+            <a href="sub_page/Articles.html#dajal" class="w3-button w3-bar-item">دجال کیست؟</a>
+          </div>
+        </div>
+
+        <a
+          href="sub_page/About & Contact.html"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >در باره ما</a
+        >
+        <a
+          href="sub_page/About & Contact.html"
+          ta
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >ارتباط با ما</a
+        >
+       
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacit-min " id="home">
+      <div class="w3-display-middle " style="white-space: nowrap; width: 100%; ">
+        <span class="w3-wide w3-animate-opacity "
+          ><img src="photo/logo_2.png" class="w3-opacity  w3-hover-opacity-off " style="width:100%;" alt=""
+        /></span>
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64  w3-animate-bottom " id="about">
+      <h3 class="w3-text-green w3-cell">خطبه سایت 
+        <div class="line w3-round-large"> </div>
+        <div class="subline w3-circle"></div>
+      </h3>
+      
+      <p>
+        سـتایش نامحـدود آفریـدگاری را سـزد که بنـدگانش را راهنمائی کرد تا معتقد
+        شوند که پس از هر امامی، امام دیگرخواهد بود، و بدین گونه به وظائف خود آشـنا
+        گردند. خداوندي که دین مقدسـش را در هر دوره و زمانی بوسیله پیغمبران امین
+        و سـفراي راسـتین خود، براي اهـل ایمـان و یقین کامـل گردانیـد. و درود پی
+        در پی بر آن نور پـاك و گوهر تابنـاکی بـاد ، که پیامبران خدا و فرستاد گان
+        پیشین بآمدن او وجانشین آن معصومش بشارت دادند: محمد صلی الله علیه و آله
+        سرور عالمیان و اهلبیت طاهرین او، که تا روز رستاخیز چراغهاي روشن شبهاي
+        دیجور گمراهی میباشند. و نفرین خدا بر دشمنان آنان تا گاهی که آسمان و زمین
+        برقرار است. و بعـد: جلـد سـیزدهم ازکتـاب «بحـار الانوار» در تاریـخ امام
+        دوازدهم راهنماي منتظر و مهـدي مظّفر، نور الانوار و حجت پروردگار، امامی
+        که از نظرها غائب و در دلهاي پاکان حاضـر است. سـروري که ایمان بخدا بوجود
+        مسعود او پایدار میباشـد و پیشوائیکه با ظهور خود، غبار غماز لوح دلها
+        بزدایـد ، حجت خدا در روي زمین و امام زمان: حجۀ بن الحسن العسـکري صلوات
+        الله و سـلامه علیه و علی آبـائه المعصومین. از تألیفـات خادم اخبار ائمه
+        اخیار و خاك آسـتان حاملین آثار پیغمبر و اهلبیت اطهار: محمـد باقر بن
+        محمـدتقی(مجلسـی)که امیـد است خداوند او را ، با سـروران خود محشور گرداند
+        و در زمان ظهور و دولت آنان از یاوران آنها قرار دهد
+      </p>
+
+
+      
+</div>
+
+<h3 class="w3-center w3-text-green w3-cell w3-padding">نواب امام زمان !
+  <div class="line w3-round-large"> </div>
+        <div class="subline w3-circle"></div>
+</h3>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding">
+  <div class="w3-quarter w3-section agent-1"> 
+   <a href="#001">
+    <p>ابو عمر و عثمان <br>  بن سعید عمري</p>
+   </a>
+  </div>
+  <div class="w3-quarter w3-section agent-2"> 
+   <a href="#002">
+    <p>ابو جعفر محمد <br> بن عثمان عمري</p>
+   </a>
+  </div>
+  <div class="w3-quarter w3-section agent-3  "> 
+   <a href="#003" >
+    <p>ابوالقاسم حسین <br> بن روح نوبختی</p>
+   </a>
+  </div>
+  <div class="w3-quarter w3-section agent-4"> 
+   
+   <a href="#004">
+    <p>ابوالحسن علی <br> بن محمد سیمری</p>
+   </a>
+  </div>
+</div>
+
+
+<div class="agent w3-container   w3-round-xxlarge w3-border-green  ">
+  <div class="top-subject w3-cell w3-text-green"> <h3><b>نوائب امام زمان</b></h3></div>
+ <h4 class="w3-text-green" id="001"> &#10004; ابو عمر و عثمان بن سعید عمري</h4>
+<p>اولین نماینده امام زمان شـیخ ابـوعمر و عثمـان بـن سـعید عمري می باشد. سفرائیکه ازجانب ائمه بنیکی یـاد شده انـد نخستین آنهـا مرد جلیـلال قـدري است که امـام علی النقی و امـام حسن عسـکري علیهما السـلام او را توثیق فرموده انـد، و او شـیخ موثـق ابـوعمر و عثمـان بـن سـعید عمري اسـت 
+  درباره تاریخ تولد عثمان، اطلاع دقیقی در دست نیست، گفته شده كه از ۱۱ سالگی، خادم امام جواد(ع) بوده  اما بنابر نقل شیخ طوسی او از ۱۱ سالگی، خادم امام هادی(ع) بوده است . وی وكیل امام هادی و امام حسن عسكری(ع) و امام زمان(عج)، و همواره مورد اعتماد آنان بود. عثمان بن سعید ابتدا در سامرا زندگی می‌كرد و بعد از رحلت امام یازدهم، به بغداد رفت. در آن زمان سامرا پایتخت و مقر لشكریان سلسله عباسی بود كه از آغاز با امامان شیعه میانه خوبی نداشتند. برخی گفته‌اند احتمالا به همین دلیل عثمان بن سعید به بغداد مهاجرت كرد و در آن‌جا منطقه كرخ را كه محل سكونت شیعیان بود، مركز رهبری امامیه قرار داد
+  </p>
+  <p>برای عثمان بن سعید دو فرزند پسر نام برده‌اند:
+<br>
+     محمد بن عثمان كه پس از وفات پدر دومین نائب امام زمان شد. <br>
+    احمد بن عثمان كه نامی از او در كتب و منابع نیامده است. اما در زمره مدعیان دروغین نیابت، اسم فردی به نام «ابوبكر محمد بن احمد بن عثمان» آمده كه تصریح شده برادرزاده محمد بن عثمان است.</p>
+<p>زمان وفات عمری، مانند ولادتش مشخص نیست، اما دو قول در این باره نقل شده است:
+<br>
+  قبل از سال ۲۶۷ق: مورد اتفاق اكثر مورخان و عالمان رجال است. <br>
+  پس از سال ۲۸۰ق: استناد این قول به توقیعی است كه در سال ۲۸۰ق نقل شده است. به تصریح شیخ طوسی، راوی این حدیث، روایت را در سال ۲۸۰ق شنیده و این، نمی‌تواند زمان وفات عثمان را روشن كند.</p>
+<br>
+<h4 class="w3-text-green" id="002"> &#10004; محمد بن عثمان عمري</h4>
+<p>
+
+  دومین نایب از نواب چهارگانه امام زمان (عجل‌الله‌تعالي‌فرجه‌الشريف)، محمد بن عثمان، فرزند نایب نخست است. وی پیش از آن، در زمان زندگی پدرش، از سوی امام عسکری (علیه‌السلام) به نیابت امام غایب معرفی شده بود. <br>
+  امام عسکری (علیه‌السلام) فرمود:گواه باشید عثمان بن سعید عمری، وکیل من است و فرزندش محمد بن عثمان وکیل فرزند من، مهدی شماست.
+  <br> طوسی، محمد بن حسن، الغیبه، ص۳۵۶، ح۳۱۷. <br>
+
+  عثمان بن سعید هنگام مرگ خود، به دستور حضرت مهدی (عجل‌الله‌تعالي‌فرجه‌الشريف) نیابت را به فرزند خود، محمد سپرد. افزون بر آن، حضرت ولی‌عصر (علیه‌السلام) نیز در توقیعاتی، به نیابت او تصریح فرمود. اما محمد بن عثمان عمری، (خداوند سبحانه و تعالی از او و پدرش خشنود و راضی باشد!) همانا او مورد وثوق من و نوشته او، نوشته من است.
+  <br> طوسی، محمد بن حسن، الغیبه، ص۳۶۲، ح۳۲۶. <br>
+  
+مدت نیابت نایب دوم حدود چهل سال به طول انجامید، از این‌رو توانست مسائل فقهی، کلامی، اجتماعی و... بیشتری از حضرت مهدی (عجل‌الله‌تعالي‌فرجه‌الشريف) پرسیده، پاسخ‌ها را در اختیار مردم قرار دهد. <br>
+
+ابوجعفر محمد بن عثمان، طبق دیدگاه مشهور، در سال ۳۰۵ق در آخر ماه جمادی الاولی درگذشت.آرامگاه محمد بن عثمان کنار قبر مادرش، بر سر راه کوفه در محلی که خانه‌اش آن‌جا بود، واقع است، این محل در سمت غربی بغداد است.   
+</p>  <br>
+<h4 class="w3-text-green" id="003"> &#10004; حسین بن روح نوبختی </h4>
+
+
+
+
+
+<p>حسین بن روح نوبختی (متوفای ۳۲۶ق)، سومین نایب از نواب اربعه امام مهدی(عج) است که به مدت ۲۱ سال (۳۰۵ - ۳۲۶ق) نیابت خاصه را بر عهده داشت. او از اصحاب امام عسکری(ع) و از یاران نزدیک نایب دوم در بغداد بود. محمد بن عثمان در واپسین روزهای حیات خود، حسین بن روح را به دستور امام زمان، جانشین خود کرد. پس از مدتی در ۵ شوال ۳۰۵ق، اولین توقیع از سوی حضرت مهدی(عج) در تأیید حسین بن روح صادر شد. حسین بن روح در ابتدای نیابت خود در دستگاه حاکم عباسی دارای موقعیت و احترام ویژه بود، اما بعدها دچار مشکل شد و مدتی زندگی مخفیانه داشت و سپس پنج سال زندانی شد. از مهم‌ترین اتفاقات دوران حسین بن روح، ماجرای شلمغانی است که وکیل مورد اعتماد او بود، اما دچار انحراف عقیده گردید و توقیعی از جانب امام زمان(عج) در لعن او صادر شد. موقعیت علمی حسین بن روح نوبختی، به دلیل تألیف کتب فقهی و اشراف کافی در مناظرات علمی، ممتاز دانسته شده است. در منابع روایی، کراماتی از او نقل شده است</p>
+<br>
+<h4 class="w3-text-green" id="004"> &#10004; علی بن محمد سمری</h4>
+<p>در اعتقادات شیعیان دوازده امامی ابوالحسن، علی بن محمد سَمَری، چهارمین نایب خاص امام زمان در دوران غیبت صغری است. وی پس از خود نایبی معرفی نکرد. از این رو بنا به اعتقادات امامیه پس از مرگ وی غیبت کبری آغاز شده‌است. 
+  بعد از در گذشت ابوالحسن سمری، مرحله جدیدی در تاریخ شیعه که به دوران غیبت کبری معروف است آغاز گشت. <br>
+  امام صادق فرمود: پس هنگامی که عذاب بر بنی اسرائیل طولانی شد، به درگاه خدا چهل روز ناله و گریه کردند پس خداوند به موسی و هارون وحی کرد و امر نمود که آن‌ها را از فرعون نجات بدهند پس  ۱۷۰ سال باقی‌مانده از ۴۰۰ سال عذاب را بر آنان بخشید. ایشان فرمود: شما شیعیان هم این گونه هستید. اگر همان کاری را بکنید که بنی اسرائیل کردند خدا حتماً فرج ما را می‌رساند . اما اگر چنین کاری نکنید، این امر تا پایانش ادامه خواهد داشت. (تفسیر عیاشی، ج ۲، ص ۱۵۴)
+
+  <br> علی بن محمد سمری در سال ٣٢٩ هجری درگذشته است. قبر وی در شهر بغداد در شمال مدرسه مستنصریه و در برابر سر درب تاریخی آن قرار دارد.
+</p>
+</div>
+
+
+
+    <div class="w3-content w3-container w3-padding-64  w3-animate-bottom " id="about">
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b class="w3-large"> &#10004; نابودي شیطان بدست قائم است</b>
+          </p>
+          <br />
+          <img
+            src="photo/348.png"
+            class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+            
+          />
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6  w3-padding-large">
+          <p>
+            سیـد علی بن عبـدالحمیـد درکتاب «الانوار المضـیئۀ» بسـند خود از اسـحاق بن عمار نقل میکند که ازحضـرت صادق پرسـیدم اینکه خداونـد بشـیطان فرمـود: منتظر «وقت معلوم» باشـد  این وقت مهـدي َمعلوم کی خواهـد بود؟ فرمود: روز قیـام قـائم ماست. وقتی خداونـد او را برانگیخته میکنـد(و آماده قیام است) در مسجد کوفه است. در آنوقت شیطان درحالیکه با زانوهاي خود راه میرود، بآنجا میآید، و میگوید: ايواي ازخطر امروز! قائم پیشانی او را گرفته وگردنش را میزنـد. آن موقع روز وقت معلوم است .که مـدت او بآخر میرسد. شـیخ طوسی درکتاب «تهذیب» از علاء بن محمد روایت میکند که گفت: از حضرت باقر (ع) پرسـیدم: قائم چگونه در میان مردم رفتار میکند؟ فرمود: بروش پیغمبر (ص) عمل مینمایـد تا آنکه اسـلام را آشـکار میسازد. عرض کردم: روش مهدي موعود علیه السلام، متن،ص: 1137 پیغمبرچگونه بود؟ فرمود: پیغمبر آثار کفر جاهلیت را از میان برد و با مردم بعـدالت رفتارکرد. قائم هم موقعی که قیام میکند هر اعمال نامشـروع و بدعتی را که هنگام صـلح وسازش با بیگان گان اسـلام در میان مسلمین مرسوم گشته از میان میبرد و مردم را بعدالت گستري رهبري مینماید.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+    <!-- Footer -->
+    <footer
+      class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off"
+    >
+      <a href="" class="w3-button w3-round-xlarge w3-light-grey"
+        ><i class="fa fa-arrow-up  w3-margin-right"></i>برو به اول صفحه</a
+      >
+      <div class="w3-xlarge w3-section">
+       <a href="https://www.facebook.com/profile.php?id=100013463080407" target="_blank"> <i class="fa fa-facebook w3-hover-opacity w3-padding"></i></a>  <!--my facebook link    -->
+       <a href="https://www.facebook.com/profile.php?id=100086169096360" target="_blank"> <i class="fa fa-facebook w3-hover-opacity w3-padding"></i></a>  <!--my facebook link    -->
+       <a href="https://t.me/hkaehan" target="_blank"> <i class="fa fa-telegram w3-hover-opacity w3-padding" style="color: #ffffff;"></i> </a>
+       <!--  <a href=""> <i class="fa fa-whatsapp w3-hover-opacity w3-padding" style="color: #ffffff;"></i> </a>
+       -->
+      </div>
+      <p class="w3-padding">
+        
+ ارتباط با ما 
+ <span class="w3-xlarge">&#8682;</span>
+      </p>
+    </footer>
+
+      </body>
+  <!-- Mirrored from www.w3schools.com/w3css/tryw3css_templates_parallax.htm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Aug 2020 22:50:48 GMT -->
+</html>
